@@ -1,0 +1,27 @@
+{
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "terminal.integrated.defaultProfile.linux": "zsh",
+          "terminal.integrated.fontFamily": "MesloLGS NF",
+          "editor.formatOnSave": true,
+          "editor.rulers": [80, 100],
+          "files.trimTrailingWhitespace": true
+        },
+        "extensions": [
+          "hashicorp.terraform",
+          "aws-scripting-guy.cform",
+          "amazonwebservices.aws-toolkit-vscode",
+          "redhat.vscode-yaml",
+          "eamodio.gitlens",
+          "github.copilot",
+          "github.vscode-pull-request-github"
+        ]
+      }
+    },
+    "features": {
+      "ghcr.io/devcontainers/features/aws-cli:1": {},
+      "ghcr.io/devcontainers/features/terraform:1": {},
+      "ghcr.io/devcontainers/features/github-cli:1": {}
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "files.insertFinalNewline": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "[terraform]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "[yaml]": {
+      "editor.autoIndent": "keep",
+      "editor.insertSpaces": true,
+      "editor.tabSize": 2,
+      "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true
+      }
+    }
+  }
+  
