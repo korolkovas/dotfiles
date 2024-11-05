@@ -9,13 +9,8 @@
           "files.trimTrailingWhitespace": true
         },
         "extensions": [
-          "hashicorp.terraform",
-          "aws-scripting-guy.cform",
-          "amazonwebservices.aws-toolkit-vscode",
-          "redhat.vscode-yaml",
           "eamodio.gitlens",
-          "github.copilot",
-          "github.vscode-pull-request-github"
+          "saoudrizwan.claude-dev"
         ]
       }
     },
